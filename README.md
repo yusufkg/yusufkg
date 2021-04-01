@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @yusufkg
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ASP.NET,ASP.NET MVC,BOOTSTRAP,MSSQL,MYSQL,REACT JS.
-- 💞️ I’m looking to collaborate on good web techonologies.
+- 💞️ I’m looking to collaborate on new web techonologies.
 - 📫 How to reach me yusufkenangirgin@hotmail.com
 <!---
 yusufkg/yusufkg is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
