@@ -13,7 +13,7 @@ You can click the Preview link to take a look at your changes.
 --->
 ### Reach Out To Me
 
-[<img height="32" width="32" style="float:left;" src="https://unpkg.com/simple-icons@v5/icons/twitter.svg" />][Twitter]
+[<img height="32" width="32" style="float:left;" fill="blue" src="https://unpkg.com/simple-icons@v5/icons/twitter.svg" />][Twitter]
 
 [<img height="32" width="32" style="float:left;" src="https://unpkg.com/simple-icons@v5/icons/linkedin.svg"/>][linkedin]
 
