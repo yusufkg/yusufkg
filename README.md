@@ -19,6 +19,7 @@ You can click the Preview link to take a look at your changes.
 <div style="background-color:red">
 <pre>
 
+      
       [<img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/twitter.svg" />][Twitter]     [<img height="32" width="32"  src="https://unpkg.com/simple-icons@v5/icons/linkedin.svg" />][linkedin]      [<img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/instagram.svg" />][Instagram]
 
 </pre>
@@ -30,6 +31,7 @@ You can click the Preview link to take a look at your changes.
 </br>
 <pre>
 
+      
       <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" width="25"/></div>      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" width="25"/>      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="25"/>      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" width="25"/>
 
 </pre>
