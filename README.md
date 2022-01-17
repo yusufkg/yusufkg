@@ -30,6 +30,8 @@ You can click the Preview link to take a look at your changes.
 
 <details>
 <summary>:bulb:Github Stats</summary>
+  
+</br>
 <img src="https://github-readme-stats.vercel.app/api?username=yusufkg&theme=radical" >
 </details>
 
@@ -37,6 +39,8 @@ You can click the Preview link to take a look at your changes.
 
 <details>
 <summary>:bulb:Most Used Languages</summary>
+  
+</br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact" >
 </details>
 
