@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @yusufkg
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ASP.NET,ASP.NET MVC,BOOTSTRAP, JAVASCRPT ,REACT JS.:blush:
+- 👀 I’m interested in ASP.NET,ASP.NET MVC,BOOTSTRAP, JAVASCRPT
+- 🌱 I’m currently learning  ,REACT JS.:blush:
 - 💞️ I’m looking to collaborate on new web techonologies.
 #### - 📫 How to reach me yusufkenangirgin@hotmail.com, https://www.linkedin.com/in/yusuf-kenan-girgin/
                      
