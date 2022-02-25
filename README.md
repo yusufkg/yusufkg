@@ -1,8 +1,11 @@
 - 👋 Hi, I’m @yusufkg
 - 👀 I’m interested in ASP.NET,ASP.NET MVC,BOOTSTRAP, JAVASCRPT
-- 🌱 I’m currently learning WEB SERVİCES :blush:
+- 🌱 I’m currently learning WEB SERVİCES :blush:            
 - 💞️ I’m looking to collaborate on new web techonologies.
-#### - 📫 How to reach me yusufkenangirgin@hotmail.com, https://www.linkedin.com/in/yusuf-kenan-girgin/
+#### - 📫 How to reach me yusufkenangirgin@hotmail.com, https://www.linkedin.com/in/yusuf-kenan-girgin/                       ![Mona](https://github.githubassets.com/images/mona-whisper.gif)
+
+                     
+                     
                      
 <!-- 
 <iframe src="https://giphy.com/embed/l1J9PC411qxTzlp2U" align="right" frameBorder="0" class="giphy-embed" allowFullScreen>
