@@ -56,7 +56,7 @@ You can click the Preview link to take a look at your changes.
 </details>
 
 
-[Twitter]:https://twitter.com/yusufkenangrgn
+[Twitter]:https://twitter.com/yusufkenan_grgn
 [Linkedin]:https://www.linkedin.com/in/yusuf-kenan-girgin/
 [Instagram]:https://www.instagram.com/yusufkenangrgn/
 
