@@ -22,7 +22,7 @@ You can click the Preview link to take a look at your changes.
 <div style="background-color:red">
 <pre>
 
-[<img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/twitter.svg" />][Twitter]     [<img height="32" width="32"  src="https://unpkg.com/simple-icons@v5/icons/linkedin.svg" />][linkedin]      [<img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/instagram.svg" />][Instagram]
+[<img height="32" width="32" color="#596FB7" src="https://unpkg.com/simple-icons@v5/icons/twitter.svg" />][Twitter]     [<img height="32" width="32"  src="https://unpkg.com/simple-icons@v5/icons/linkedin.svg" />][linkedin]      [<img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/instagram.svg" />][Instagram]
 
 </pre>
   </div>
