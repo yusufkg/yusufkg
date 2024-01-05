@@ -16,11 +16,7 @@ yusufkg/yusufkg is a ✨ special ✨ repository because its `README.md` (this fi
 You can click the Preview link to take a look at your changes.
 -->
 </br>
-<script>
-.image #svg {
-  color:#ffffff;
-}
-</script>
+
 ### Reach Out To Me
 </br>
 <div style="background-color:red">
