@@ -18,7 +18,7 @@ You can click the Preview link to take a look at your changes.
 </br>
 <script>
 .image #svg {
-  color:#86B6F6;
+  color:#ffffff;
 }
 </script>
 ### Reach Out To Me
