@@ -1,7 +1,27 @@
-- 👋 Hi, I’m @yusufkg
-- 👀 I’m interested in ASP.NET,ASP.NET MVC,ASP.NET MVC CORE,BOOTSTRAP, JAVASCRIPT
-- 🌱 I’m currently learning WEB API :blush:            
-- 💞️ I’m looking to collaborate on new web techonologies.
+# 👋 Hi, I'm Yusuf Kenan Girgin!
+
+💻 I'm a **Software Test Specialist** and an **Electronics and Communications Engineering graduate**.
+
+- 👀 I'm interested in **Software Quality Assurance, Test Automation, Web Development, Artificial Intelligence, and Robotics**.
+- 🧪 I'm working with **Java, Selenium WebDriver, Cucumber, JUnit, Maven, and Azure DevOps**.
+- 💻 I have experience with **C#, ASP.NET Core, ASP.NET MVC, SQL, JavaScript, HTML, CSS, and Bootstrap**.
+- 🌱 I'm currently improving my skills in **Playwright, API Testing, CI/CD, and Test Automation Frameworks**.
+- 🤖 I'm exploring **Human–Robot Interaction (HRI), Assistive Robotics, and Healthcare Robotics**.
+- 🤝 I'm looking to collaborate on **Software Testing, Automation, Web Technologies, and Robotics projects**.
+- 🌐 Website: [yusufkenangirgin.com](https://yusufkenangirgin.com/)
+- 🔗 LinkedIn: [linkedin.com/in/yusufkenangirgin](https://www.linkedin.com/in/yusufkenangirgin/)
+
+### 🛠️ Tech Stack
+
+**Testing:** Selenium · Cucumber · JUnit · Maven · Manual Testing · Regression Testing
+
+**Development:** Java · C# · ASP.NET Core · SQL · JavaScript · HTML · CSS · Bootstrap
+
+**Tools:** Git · GitHub · Azure DevOps · Jenkins · Bitbucket
+
+### 🎯 My Focus
+
+Building reliable software through effective testing and automation while exploring emerging technologies in AI and robotics.
 #### - 📫 How to reach me www.yusufkenangirgin.com, yusufkenangirgin@hotmail.com, https://www.linkedin.com/in/yusufkenangirgin/                       ![Mona](https://github.githubassets.com/images/mona-whisper.gif)
 
                      
