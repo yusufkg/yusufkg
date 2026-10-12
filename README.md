@@ -76,7 +76,7 @@ You can click the Preview link to take a look at your changes.
 </details>
 
 
-[Twitter]:https://twitter.com/yusufkenan_grgn
+[Twitter]:https://twitter.com/yusufkenangrg
 [Linkedin]:https://www.linkedin.com/in/yusufkenangirgin/
 [Instagram]:https://www.instagram.com/yusufkenangrgn/
 
