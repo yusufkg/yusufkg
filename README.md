@@ -7,6 +7,8 @@ I'm a Software Test Engineer at **BGTS (BilgeAdam Technology)** with a backgroun
 
 I focus on improving software quality through manual testing, test automation, test case design, defect management, and effective testing processes.
 
+My professional experience includes enterprise web applications in **Human Capital Management (HCM)** and **Learning Management System (LMS)** domains.
+
 I'm also interested in Artificial Intelligence (AI), Human–Robot Interaction (HRI), and Robotics.
 
 ---
@@ -15,8 +17,10 @@ I'm also interested in Artificial Intelligence (AI), Human–Robot Interaction (
 
 - 🔭 Currently working in **Software Quality Assurance and Test Automation**.
 - 🧪 Experienced in **Manual Testing, Functional Testing, Regression Testing, and Smoke Testing**.
-- ⚙️ Working with **Selenium WebDriver, Java, Cucumber (BDD), JUnit 4, Maven, and Azure DevOps**.
-- 🐞 Involved in **Test Case Design, Defect Tracking, Test Documentation, and Troubleshooting**.
+- ⚙️ Working with **Selenium WebDriver, Java, Cucumber (BDD), Karate, JUnit, Maven, and Azure DevOps**.
+- 🔄 Implementing **GitHub Actions CI workflows, automated test validation, and test reporting** in personal projects.
+- 🐞 Involved in **Test Case Design, Defect Tracking, Test Documentation, Retesting, and Troubleshooting**.
+- 🏢 Experience with enterprise applications in **HCM, LMS, and E-Commerce** domains.
 - 💻 Background in **C#, .NET, ASP.NET Core MVC, ASP.NET MVC, SQL Server, JavaScript, HTML, CSS, and Bootstrap**.
 - 🌱 Expanding my knowledge of **Playwright, API Testing, CI/CD, and Test Automation Frameworks**.
 - 🤖 Interested in **Human–Robot Interaction (HRI), Assistive Robotics, Healthcare Robotics, and AI**.
@@ -31,10 +35,19 @@ I'm also interested in Artificial Intelligence (AI), Human–Robot Interaction (
 
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
-![JUnit 4](https://img.shields.io/badge/JUnit_4-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Karate](https://img.shields.io/badge/Karate-000000?style=flat-square&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
-**Testing Skills:** Manual Testing · Functional Testing · Regression Testing · Smoke Testing · Test Case Design · Defect Management · BDD
+**Testing Skills:** Manual Testing · Functional Testing · Regression Testing · Smoke Testing · Test Case Design · Defect Management · BDD/Gherkin · Test Reporting
+
+### 🔄 CI & Test Execution
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+**Practices:** Maven Builds · CI Validation · Cucumber Dry Runs · Headless Chrome Testing · HTML/JUnit Reports · Build Artifacts
 
 ### 💻 Programming & Development
 
@@ -53,15 +66,13 @@ I'm also interested in Artificial Intelligence (AI), Human–Robot Interaction (
 
 ### 🔧 Development & Collaboration Tools
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white)
 
 **Documentation:** Confluence · SharePoint
 
-**Methodologies:** Agile · Scrum · SDLC
+**Methodologies:** Agile · Scrum · SDLC · Page Object Model (POM) · BDD
 
 ---
 
@@ -77,6 +88,21 @@ I'm also interested in Artificial Intelligence (AI), Human–Robot Interaction (
 - Track, document, and retest software defects using Azure DevOps and Jira.
 - Prepare technical test documentation and collaborate with Agile/Scrum teams.
 - Support troubleshooting and root cause analysis activities.
+- Work with enterprise applications in HCM and LMS domains.
+
+### Software Development Intern | BGTS (BilgeAdam Technology)
+
+**December 2023 – October 2024**
+
+- Contributed to web application development using C#, .NET, ASP.NET MVC, and ASP.NET Core MVC.
+- Worked with SQL Server, Entity Framework, CRUD operations, Windows Forms, and web technologies.
+
+### Software Developer | Yirmibeş Software & Consulting
+
+**December 2021 – February 2022**
+
+- Contributed to web interface development using jQuery and AJAX.
+- Supported server-side development using C# and SQL.
 
 ---
 
@@ -84,17 +110,32 @@ I'm also interested in Artificial Intelligence (AI), Human–Robot Interaction (
 
 ### 🛒 Trendyol Test Automation
 
-An e-commerce test automation project focused on web application testing and automation framework development.
+A personal e-commerce UI test automation project focused on guest-user workflows, reusable test architecture, automated validation, and CI integration.
 
-**Tech Stack:** Java · Selenium WebDriver · Cucumber · JUnit · Maven
+**Tech Stack:** Java 17 · Selenium WebDriver · Cucumber · Karate · JUnit · Maven · GitHub Actions · Chrome
+
+**Project Highlights:**
+
+- Created a catalog of **48 test scenarios**, separating implemented scenarios from planned coverage.
+- Implemented **3 Selenium/Cucumber guest-user scenarios**.
+- Developed **3 Karate guest-user scenarios** in a separate Karate project.
+- Applied reusable step definitions, Page Object Model concepts, and browser synchronization strategies.
+- Configured GitHub Actions CI for Maven builds and automated validation.
+- Added **5 unit tests**, Cucumber dry-run checks, and a headless Chrome smoke test against a local HTML fixture.
+- Integrated HTML/JUnit reporting and CI artifact uploads.
+- Kept live Trendyol UI execution separate from automated CI validation.
+
+**CI Scope:** The CI workflow validates configured unit tests, Cucumber dry-run checks, and local-fixture browser testing. Planned scenarios and live Trendyol UI tests are not represented as successful CI executions.
 
 [View Repository](https://github.com/yusufkg/Trendyol-Test-Automation)
+
+[View CI Workflow](https://github.com/yusufkg/Trendyol-Test-Automation/actions/workflows/ci.yml)
 
 ### 🍔 MVC Hamburger Ordering Application
 
 An ASP.NET Core MVC application featuring user authentication, menu selection, order customization, and price calculations.
 
-**Tech Stack:** C# · .NET 8 · ASP.NET Core MVC · EF Core · SQL Server
+**Tech Stack:** C# · .NET 8 · ASP.NET Core MVC · EF Core · SQL Server · Identity · FluentValidation
 
 [View Repository](https://github.com/yusufkg/MVCHamburgerApp)
 
@@ -113,6 +154,14 @@ A desktop application supporting album management, user authentication, filterin
 **Tech Stack:** C# · .NET 8 · Windows Forms · EF Core · SQL Server
 
 [View Repository](https://github.com/yusufkg/Plak-Dukkani)
+
+### 📝 ASP.NET Core MVC Blog Management
+
+A layered blog management project featuring administrator and writer panels, content management, and Web API examples.
+
+**Tech Stack:** C# · ASP.NET Core 5.0 · Entity Framework Core · SQL Server · MVC
+
+[View Repository](https://github.com/yusufkg/MVC-CORE-KAMPI)
 
 ---
 
