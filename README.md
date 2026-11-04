@@ -258,15 +258,20 @@ I explore how software engineering, AI, and robotics can contribute to reliable,
 
 ## 📊 GitHub Statistics
 
+
+## 📊 GitHub Statistics
+
 <p align="center">
   <img
     src="https://github-stats-extended.vercel.app/api?username=yusufkg&show_icons=true&theme=tokyonight&hide_border=true"
     alt="Yusuf Kenan Girgin GitHub Statistics"
+    width="400"
     height="180"
   />
   <img
     src="https://github-stats-extended.vercel.app/api/top-langs/?username=yusufkg&layout=compact&theme=tokyonight&hide_border=true"
     alt="Most Used Languages"
+    width="400"
     height="180"
   />
 </p>
