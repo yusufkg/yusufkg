@@ -255,10 +255,6 @@ I explore how software engineering, AI, and robotics can contribute to reliable,
 
 ---
 
-
-## 📊 GitHub Statistics
-
-
 ## 📊 GitHub Statistics
 
 <p align="center">
