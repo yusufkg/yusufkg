@@ -1,3 +1,6 @@
+Playwright CI entegrasyonunu ve HTTP 403 hata tanılamasını güncelledim. İş deneyimi bilgilerini paylaştığın metne göre korudum.
+
+```markdown
 # 👋 Hi, I'm Yusuf Kenan Girgin!
 
 ### Software Test Engineer | QA & Test Automation
@@ -19,8 +22,9 @@ In my personal projects, I develop Java-based UI and API tests with Selenium, Cu
 - Document defects, perform retesting, and verify fixes.
 - Develop Selenium and Cucumber tests using Page Object Model.
 - Write RestAssured API tests with TestNG data providers and test groups.
-- Explore browser automation with Karate UI and Playwright Java.
+- Develop browser automation examples with Karate UI and Playwright Java.
 - Maintain GitHub Actions workflows and downloadable test reports.
+- Investigate browser failures using HTTP responses, HTML snapshots, and screenshots.
 - Work with C#, .NET, SQL Server, and web development technologies.
 - Explore Artificial Intelligence, Human–Robot Interaction, and Robotics.
 
@@ -36,7 +40,7 @@ In my personal projects, I develop Java-based UI and API tests with Selenium, Cu
 ![Playwright](https://img.shields.io/badge/Playwright_Java-2EAD33?style=flat-square)
 ![RestAssured](https://img.shields.io/badge/RestAssured-4B9B36?style=flat-square)
 ![TestNG](https://img.shields.io/badge/TestNG-DC382D?style=flat-square)
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
 - UI and REST API testing
@@ -44,10 +48,11 @@ In my personal projects, I develop Java-based UI and API tests with Selenium, Cu
 - Page Object Model
 - XPath locators
 - Explicit waits and browser synchronization
-- Response status and JSON assertions
+- HTTP status and JSON response assertions
 - Positive, negative, and data-driven testing
 - TestNG DataProvider, groups, and XML suites
 - Failure screenshots and browser cleanup
+- HTML snapshots and navigation diagnostics
 - HTML, JSON, and JUnit XML reporting
 
 ### Testing Practices
@@ -69,11 +74,12 @@ In my personal projects, I develop Java-based UI and API tests with Selenium, Cu
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 - Maven build and test validation
-- Pull request workflows
+- Push and pull request workflows
 - Cucumber step-mapping checks
-- Headless browser testing
-- Separate API test jobs
-- Test report artifacts
+- Headless Chrome and Chromium testing
+- Independent API and Playwright CI jobs
+- Test report artifact collection
+- CI log analysis and execution evidence
 - Conditional HTML report publication through GitHub Pages
 
 ### Programming and Development
@@ -131,21 +137,21 @@ December 2021 – February 2022
 
 **Java 17 | Selenium | Cucumber | Karate UI | Playwright Java | RestAssured | TestNG | JUnit | Maven | GitHub Actions**
 
-A personal QA automation project covering guest-user e-commerce workflows, a controlled local product API, and browser automation examples.
+A personal QA automation project covering guest-user e-commerce workflows, a controlled local product API, browser automation, and automated test reporting.
 
 #### Current Scope
 
-| Component | Implemented Scope |
+| Component | Scope and Status |
 |---|---|
 | Scenario catalog | 48 documented guest-user scenarios |
 | Selenium / Cucumber | 7 implemented scenarios, 41 planned |
 | Karate UI | 4 implemented Trendyol scenarios, 44 planned |
-| Karate browser setup | 1 headless Chrome test against a local HTML fixture |
+| Karate setup | 1 headless Chrome test against local HTML |
 | RestAssured / TestNG | 5 API scenarios with 10 regression executions |
 | API smoke suite | 3 test executions |
 | Root unit tests | 11 tests |
-| Playwright Java | 1 locally verified headless Chromium smoke test |
-| CI | Unit tests, Cucumber dry-run, Karate fixture test, and API regression |
+| Playwright local smoke | 1 headless Chromium test verified locally and in CI |
+| Playwright live TC-001 | Implemented, latest local execution failed with HTTP 403 |
 | Reporting | Cucumber and Karate HTML, TestNG reports, JUnit XML, and CI artifacts |
 
 #### Implemented Selenium Workflows
@@ -158,6 +164,8 @@ A personal QA automation project covering guest-user e-commerce workflows, a con
 - TC-010 — Replace the current search query.
 - TC-024 — Open a selected product and verify its details.
 
+Dated execution records document the scenarios exercised and their results.
+
 #### Architecture
 
 The repository contains independent Maven projects:
@@ -165,9 +173,9 @@ The repository contains independent Maven projects:
 - Root project — Selenium, Cucumber, and JUnit.
 - `karate-ui/` — Karate browser automation.
 - `api-tests/` — RestAssured and TestNG API automation.
-- `playwright-ui/` — Playwright Java browser example.
+- `playwright-ui/` — Playwright Java browser tests.
 
-The Selenium project separates feature files, step definitions, page objects, browser lifecycle management, and reusable utilities.
+The Selenium project organizes feature files, step definitions, page objects, browser lifecycle management, and reusable utilities by responsibility.
 
 #### API Automation
 
@@ -175,7 +183,7 @@ API tests run against a controlled local product API.
 
 - Verify product listing and retrieval.
 - Create a product and verify persistence.
-- Reject invalid product data.
+- Reject invalid product data without creating records.
 - Verify responses for unknown product IDs.
 - Execute six invalid payload variations using TestNG DataProvider.
 - Select smoke and regression coverage through TestNG XML suites.
@@ -186,33 +194,61 @@ API tests run against a controlled local product API.
 - Use explicit waits for Selenium synchronization.
 - Verify product identity and search relevance.
 - Parse Turkish currency formats with tested utility code.
-- Attach PNG screenshots to Cucumber reports when failed scenarios allow capture.
+- Attach PNG screenshots to Cucumber reports when capture is available.
 - Handle screenshot and browser cleanup failures.
 - Cover cleanup behavior with unit tests.
-- Record dated verification evidence in the repository.
+- Check navigation HTTP responses in the Playwright live test.
+- Capture the URL, HTTP status, HTML, and screenshot after a Playwright failure.
+- Preserve the original failure when evidence collection also fails.
+- Maintain dated test evidence and investigation notes.
 
-#### Playwright Progress
+#### Playwright Development
 
-The first Playwright Java test runs headless Chromium against local HTML. It fills a search field, clicks a button using XPath, and verifies the displayed result.
+The local Playwright smoke test launches headless Chromium, fills a search field, clicks a button using XPath, and verifies the displayed result.
 
-The Playwright module currently runs through a separate local Maven command.
+This test passed locally and in GitHub Actions.
+
+An additional live TC-001 test checks the Trendyol home page URL, logo, search field, category links, and application error elements.
+
+The latest local live execution received HTTP 403. Navigation diagnostics identified the response before element assertions ran. The live scenario remains awaiting a successful execution.
 
 #### CI and Test Evidence
 
-GitHub Actions runs:
+GitHub Actions includes three test jobs:
 
-1. Root JUnit tests.
-2. Cucumber step-mapping verification.
-3. A real headless Chrome test against a local Karate fixture.
-4. RestAssured API regression in a separate job.
-5. Report uploads as downloadable artifacts.
+| Job | Coverage |
+|---|---|
+| `verify` | Root unit tests, Cucumber dry-run, and Karate local browser smoke |
+| `api-tests` | RestAssured and TestNG API regression |
+| `playwright-tests` | Chromium installation and Playwright local browser smoke |
 
-Live Trendyol tests can be selected manually through the workflow.
+Reports are uploaded as:
 
-Evidence distinguishes live-site results, local-fixture browser tests, API tests, and Cucumber dry-run checks. The repository also includes conditional GitHub Pages publication for HTML test reports.
+- `test-reports`
+- `api-test-reports`
+- `playwright-test-reports`
+
+Artifacts are configured for 14-day retention and collection after test failures.
+
+The verified CI run for commit `28a0a67` completed:
+
+| Test Group | Successful Executions |
+|---|---|
+| Root JUnit tests | 11 |
+| Cucumber step mapping | 7 |
+| Karate local browser smoke | 1 |
+| RestAssured API regression | 10 |
+| Playwright local browser smoke | 1 |
+
+An earlier push run encountered a Karate Chrome startup connection failure. The failed job passed when rerun, and the investigation was recorded.
+
+Live Selenium and Karate tests can be selected manually through the workflow. The Playwright live TC-001 test runs through an explicit Maven command.
+
+GitHub Pages publication is configured for eligible successful main-branch runs. The publication job waits for all three test jobs.
 
 [Repository](https://github.com/yusufkg/Trendyol-Test-Automation) ·
-[GitHub Actions](https://github.com/yusufkg/Trendyol-Test-Automation/actions/workflows/ci.yml)
+[GitHub Actions](https://github.com/yusufkg/Trendyol-Test-Automation/actions/workflows/ci.yml) ·
+[Verified CI Run](https://github.com/yusufkg/Trendyol-Test-Automation/actions/runs/42169491268)
 
 ---
 
@@ -289,7 +325,7 @@ I explore how software engineering, AI, and robotics can support reliable and ac
 - Develop maintainable automation code.
 - Improve browser synchronization and failure diagnostics.
 - Strengthen CI workflows and test evidence.
-- Continue learning Playwright Java.
+- Continue developing Playwright Java tests.
 - Connect software quality practices with AI and robotics research.
 
 ---
@@ -300,3 +336,4 @@ I explore how software engineering, AI, and robotics can support reliable and ac
 [LinkedIn](https://www.linkedin.com/in/yusufkenangirgin/) ·
 [X](https://twitter.com/yusufkenangrg) ·
 [Instagram](https://www.instagram.com/yusufkenangrgn/)
+```
