@@ -1,11 +1,9 @@
-
 # 👋 Hi, I'm Yusuf Kenan Girgin!
 
 ### Software Test Engineer | QA Automation Engineer
 **Electronics & Communications Engineer**
 
-📍 Ankara, Türkiye  
-💼 Open to Work — Software Testing & QA Automation
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yusufkenangirgin/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yusufkg)
@@ -15,20 +13,13 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Software Test Engineer** with approximately **2 years of professional QA experience**, specializing in enterprise web applications, manual testing, test automation, and software quality assurance.
+I'm a **Software Test Engineer** with approximately **2 years of professional QA experience**, working on enterprise web applications, manual testing, test automation, and software quality assurance.
 
-Currently working at **BGTS (BilgeAdam Technology)**, I contribute to testing **Human Capital Management (HCM)** and **Learning Management Systems (LMS)**.
+At **BGTS (BilgeAdam Technology)**, I contribute to testing **Human Capital Management (HCM)** and **Learning Management Systems (LMS)**.
 
-My technical background combines:
+My development background in C#, .NET, and SQL helps me investigate defects across application behavior, code, and data.
 
-- Java-based UI and API test automation
-- Selenium WebDriver, Cucumber, Karate UI, and Playwright Java
-- RestAssured, TestNG, and JUnit
-- C#, .NET, ASP.NET Core, and SQL
-- CI/CD automation with GitHub Actions
-- Defect management, regression testing, and Agile practices
-
-I'm interested in building reliable, maintainable, and scalable test automation solutions.
+In my personal projects, I build Java-based UI and API tests, automate execution through GitHub Actions, and maintain documented test evidence.
 
 ---
 
@@ -49,54 +40,43 @@ I'm interested in building reliable, maintainable, and scalable test automation 
 - Karate UI and Playwright Java
 - RestAssured API automation
 - TestNG DataProvider, groups, and XML suites
-- Page Object Model (POM)
-- XPath, explicit waits, and browser synchronization
+- Page Object Model
+- XPath locators and explicit waits
 - Positive, negative, and data-driven testing
-- HTML, JSON, and JUnit XML test reporting
+- HTTP status and JSON response assertions
+- Failure screenshots, HTML snapshots, and browser cleanup
+- HTML, JSON, and JUnit XML reporting
 
 ### Software Testing
 
-- Manual Testing
-- Functional Testing
-- Regression Testing
-- Smoke Testing
-- Test Case Design
-- Defect Management
-- Retesting and Bug Verification
-- API and Database Validation
-- Agile, Scrum, and SDLC
+Functional Testing · Regression Testing · Smoke Testing · Test Case Design · Defect Management · Retesting · API Validation · SQL Database Validation · Agile · Scrum · SDLC
 
-### CI/CD & Version Control
+### CI and Version Control
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
-- GitHub Actions
-- Maven build and test execution
-- Automated test report collection
-- CI failure diagnostics
-- Git and Bitbucket
+- Maven build and test validation
+- Push and pull request workflows
+- Independent API and browser test jobs
+- Automated report collection
+- CI failure investigation
+- Conditional HTML report publication through GitHub Pages
 
-### Programming & Development
+### Programming and Development
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![CSharp](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![DotNet](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 
-- Java 17
-- C# and .NET
-- ASP.NET MVC / ASP.NET Core MVC
-- Entity Framework Core
-- SQL Server
-- HTML, CSS, JavaScript, Bootstrap
+Java 17 · C# · .NET · ASP.NET MVC · ASP.NET Core MVC · Entity Framework Core · SQL Server · HTML · CSS · JavaScript · Bootstrap
 
-### Tools & Collaboration
+### Tools and Collaboration
 
-`Jira` · `Azure DevOps` · `Bitbucket` · `Confluence` · `SharePoint` · `Agile/Scrum`
+Jira · Azure DevOps · Bitbucket · Confluence · SharePoint
 
 ---
 
@@ -104,9 +84,9 @@ I'm interested in building reliable, maintainable, and scalable test automation 
 
 ### Software Test Engineer
 **BGTS (BilgeAdam Technology)**  
-*November 2024 – Present*
+November 2024 – Present
 
-- Design and execute manual test scenarios for enterprise HCM and LMS applications.
+- Design and execute test scenarios for enterprise HCM and LMS applications.
 - Perform functional, regression, smoke, and negative testing.
 - Contribute to Selenium WebDriver and Cucumber automation.
 - Investigate defects and verify fixes through retesting.
@@ -117,7 +97,7 @@ I'm interested in building reliable, maintainable, and scalable test automation 
 
 ### Software Development Intern
 **BGTS (BilgeAdam Technology)**  
-*December 2023 – October 2024*
+December 2023 – October 2024
 
 - Contributed to ASP.NET MVC and ASP.NET Core MVC applications.
 - Worked with C#, .NET, SQL Server, and Entity Framework.
@@ -126,7 +106,7 @@ I'm interested in building reliable, maintainable, and scalable test automation 
 
 ### Software Developer
 **Yirmibeş Software & Consulting**  
-*December 2021 – February 2022*
+December 2021 – February 2022
 
 - Contributed to web interfaces using jQuery and AJAX.
 - Supported backend development using C# and SQL.
@@ -137,89 +117,161 @@ I'm interested in building reliable, maintainable, and scalable test automation 
 
 ### 🧪 Trendyol Test Automation
 
-**Tech Stack:** Java 17, Selenium, Cucumber, Karate UI, Playwright Java, RestAssured, TestNG, JUnit, Maven, GitHub Actions
+**Java 17 | Selenium | Cucumber | Karate UI | Playwright Java | RestAssured | TestNG | JUnit | Maven | GitHub Actions**
 
-A modular QA automation project covering guest-user e-commerce workflows, REST API testing, browser automation, and CI/CD.
+A personal QA automation project covering guest-user e-commerce workflows, a controlled local product API, browser automation, and automated reporting.
 
-### Test Coverage
+### Current Coverage
 
-| Component | Status |
+| Component | Implementation and Verification |
 |---|---|
-| Selenium/Cucumber | 7 implemented scenarios |
-| Selenium scenario catalog | 48 documented; 41 planned |
-| Karate UI | 4 implemented e-commerce scenarios |
-| Karate local smoke | 1 browser test |
-| RestAssured/TestNG | 5 API scenarios; 10 regression executions |
+| Scenario catalog | 48 documented guest-user scenarios |
+| Selenium / Cucumber | 7 implemented scenarios, 41 planned |
+| Karate UI | 4 implemented Trendyol scenarios, 44 planned |
+| Karate setup | 1 headless Chrome test against local HTML |
+| RestAssured / TestNG | 5 API scenarios with 10 regression executions |
 | API smoke suite | 3 executions |
 | Root JUnit tests | 11 tests |
-| Playwright local smoke | Passed locally and in CI |
-| Playwright live TC-001 | Implemented; latest execution returned HTTP 403 |
+| Playwright local smoke | 1 Chromium test verified locally and in CI |
+| Playwright live TC-001 | Implemented; 9 November execution failed with HTTP 403 |
 
-> **Note:** Documented scenarios and executed tests are reported separately. Planned scenarios are not counted as passed tests.
+Implementation status and execution evidence are tracked in separate documentation.
 
-### Project Architecture
+### Selenium Workflows
+
+- TC-001 — Open the home page and verify its main elements.
+- TC-002 — Return to the home page using the logo.
+- TC-003 — Navigate through the category menu.
+- TC-005 — Search with a valid keyword.
+- TC-008 — Verify a search with no matching results.
+- TC-010 — Replace the search query.
+- TC-024 — Open and verify selected product details.
+
+The tests use page objects, reusable step definitions, XPath locators, explicit waits, and scenario-level browser lifecycle management.
+
+### Project Structure
 
 ```text
 Trendyol-Test-Automation/
+├── pom.xml
 ├── src/
+│   ├── main/java/
+│   │   └── com/yusuf/qa/pricing/
 │   └── test/
-│       ├── java/
+│       ├── java/com/yusuf/qa/
+│       │   ├── runners/
+│       │   ├── steps/
+│       │   ├── pages/
+│       │   ├── support/
+│       │   └── pricing/
 │       └── resources/
+│           └── features/
 ├── karate-ui/
+│   ├── pom.xml
+│   └── src/test/java/
 ├── api-tests/
+│   ├── pom.xml
+│   └── src/test/
 ├── playwright-ui/
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-└── pom.xml
+│   ├── pom.xml
+│   └── src/test/java/
+├── .github/workflows/
+│   └── ci.yml
+├── scripts/
+└── docs/
+    ├── architecture.md
+    ├── scenario-status.md
+    ├── test-plani.md
+    ├── roadmap.md
+    └── evidence/
 ```
+
+Each automation project has an independent Maven configuration. The documentation describes responsibilities, execution commands, scenario status, and dated verification results.
 
 ### API Automation
 
+RestAssured tests exercise a controlled local product API.
+
 - Product listing and retrieval
-- Product creation and validation
-- Invalid request scenarios
+- Product creation and persistence checks
+- Invalid request rejection
+- Unknown product ID responses
 - HTTP status and JSON assertions
-- TestNG DataProvider
-- Smoke and regression suites
-- Isolated local test server
+- Six invalid payload variations through TestNG DataProvider
+- Smoke and regression selection through XML suites
+- An isolated local server for each test
 
 ### Playwright Automation
 
-- Headless Chromium browser testing
-- Local HTML smoke tests
-- XPath locator validation
-- HTTP navigation diagnostics
-- Failure screenshots and HTML snapshots
-- CI integration
+The local smoke test launches headless Chromium, enters text using XPath, clicks a search button, and verifies the result. It runs locally and in a dedicated GitHub Actions job.
 
-The local Playwright smoke test passed in GitHub Actions.
+The live TC-001 test checks:
 
-The live Trendyol homepage test returned **HTTP 403** in its latest documented execution and remains unresolved.
+- Navigation HTTP response
+- Home page URL
+- Logo visibility
+- Search field visibility
+- Category navigation visibility
+- Application error elements
 
-### CI/CD Pipeline
+During the latest documented live execution, the site returned **HTTP 403**. The test reported the HTTP failure before continuing to element checks.
 
-GitHub Actions includes:
+Failure diagnostics record:
+
+- HTTP status and current URL
+- Page HTML
+- Browser screenshot
+
+Evidence collection errors are attached to the original failure. The live scenario remains awaiting a successful execution.
+
+### Reliability and Reporting
+
+- Explicit waits for Selenium synchronization
+- Product identity and search relevance checks
+- Unit-tested Turkish currency parsing
+- PNG attachments for failed Selenium scenarios
+- Browser cleanup behavior covered by unit tests
+- Playwright HTTP and page diagnostics
+- Dated records of successful and failed executions
+
+### GitHub Actions
 
 | Job | Purpose |
 |---|---|
-| `verify` | JUnit tests, Cucumber dry-run, Karate smoke |
+| `verify` | JUnit tests, Cucumber dry-run, and Karate local browser smoke |
 | `api-tests` | RestAssured and TestNG regression |
-| `playwright-tests` | Playwright Chromium smoke |
+| `playwright-tests` | Chromium installation and local Playwright smoke |
+| `publish-reports` | Conditional GitHub Pages report publication |
 
-**Documented successful CI execution:**
+The documented successful CI run for commit `28a0a67` includes:
 
-- 11 JUnit unit tests
-- 7 Cucumber step mappings
-- 1 Karate local browser smoke test
-- 10 API regression executions
-- 1 Playwright local browser smoke test
+| Test Group | Successful Executions |
+|---|---|
+| Root JUnit tests | 11 |
+| Cucumber step mappings | 7 |
+| Karate local browser smoke | 1 |
+| API regression | 10 |
+| Playwright local browser smoke | 1 |
 
-Reports are uploaded as GitHub Actions artifacts.
+Cucumber dry-run validates step mapping. Karate and Playwright smoke tests exercise local HTML fixtures. Live Selenium and Karate execution is available through a manual workflow option.
 
-🔗 [Repository](https://github.com/yusufkg/Trendyol-Test-Automation)  
-🔗 [GitHub Actions](https://github.com/yusufkg/Trendyol-Test-Automation/actions/workflows/ci.yml)  
-🔗 [Documented CI Run](https://github.com/yusufkg/Trendyol-Test-Automation/actions/runs/42169491268)
+Reports are collected as `test-reports`, `api-test-reports`, and `playwright-test-reports`, with 14-day retention. Pages publication waits for all three test jobs to succeed.
+
+### Documentation
+
+The `docs/` directory contains:
+
+- Automation architecture and execution flow
+- Scenario implementation status
+- Test plan and development roadmap
+- Dated CI and local test evidence
+- Failure investigation records
+
+The documentation was prepared with AI assistance and reviewed against source code and execution records. Test report files are generated automatically during execution.
+
+[Repository](https://github.com/yusufkg/Trendyol-Test-Automation) ·
+[GitHub Actions](https://github.com/yusufkg/Trendyol-Test-Automation/actions/workflows/ci.yml) ·
+[Documented CI Run](https://github.com/yusufkg/Trendyol-Test-Automation/actions/runs/42169491268)
 
 ---
 
@@ -230,24 +282,22 @@ Reports are uploaded as GitHub Actions artifacts.
 **C# | .NET 8 | ASP.NET Core MVC | EF Core | SQL Server | Identity**
 
 - User authentication
-- Menu selection
-- Order customization
+- Menu selection and order customization
 - Price calculation
 - Database integration
 
-[View Repository](https://github.com/yusufkg/MVCHamburgerApp)
+[Repository](https://github.com/yusufkg/MVCHamburgerApp)
 
 ### 🥗 Diet Automation
 
 **C# | .NET 8 | Windows Forms | EF Core | SQL Server**
 
-- Layered architecture
-- Repository Pattern
+- Layered architecture and repository pattern
 - Food and meal management
 - CRUD operations
 - Relational database operations
 
-[View Repository](https://github.com/yusufkg/Diyet-Otomasyonu)
+[Repository](https://github.com/yusufkg/Diyet-Otomasyonu)
 
 ### 💿 Record Store Management
 
@@ -258,7 +308,7 @@ Reports are uploaded as GitHub Actions artifacts.
 - Search and filtering
 - Database operations
 
-[View Repository](https://github.com/yusufkg/Plak-Dukkani)
+[Repository](https://github.com/yusufkg/Plak-Dukkani)
 
 ### 📝 ASP.NET Core MVC Blog Management
 
@@ -269,7 +319,7 @@ Reports are uploaded as GitHub Actions artifacts.
 - Database operations
 - Web API examples
 
-[View Repository](https://github.com/yusufkg/MVC-CORE-KAMPI)
+[Repository](https://github.com/yusufkg/MVC-CORE-KAMPI)
 
 ---
 
@@ -282,29 +332,25 @@ Reports are uploaded as GitHub Actions artifacts.
 
 ## 🔬 Research Interests
 
-- Artificial Intelligence
-- Human–Robot Interaction (HRI)
-- Robotics and Intelligent Systems
-- Software Quality and Reliability
-- Test Automation and CI/CD
+Artificial Intelligence · Human–Robot Interaction · Robotics · Software Quality and Reliability
 
 ---
 
 ## 🎯 Professional Goals
 
-- Expand UI and API automation coverage.
-- Develop reusable test frameworks.
-- Improve Playwright and Java automation skills.
-- Strengthen CI/CD reliability and reporting.
-- Explore performance and API testing.
+- Expand verified UI and API automation coverage.
+- Develop reusable and maintainable test components.
+- Improve Playwright Java skills and failure diagnostics.
+- Strengthen CI reliability and reporting.
+- Explore performance testing.
 - Apply software quality practices to AI and robotics.
 
 ---
 
 ## 📫 Connect With Me
 
-[![Website](https://img.shields.io/badge/Website-4285F4?style=flat-square)](https://yusufkenangirgin.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yusufkenangirgin/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yusufkg)
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/yusufkenangrg)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/yusufkenangrgn/)
+[Website](https://yusufkenangirgin.com/) ·
+[LinkedIn](https://www.linkedin.com/in/yusufkenangirgin/) ·
+[GitHub](https://github.com/yusufkg) ·
+[X](https://twitter.com/yusufkenangrg) ·
+[Instagram](https://www.instagram.com/yusufkenangrgn/)
